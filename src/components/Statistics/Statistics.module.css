@@ -1,0 +1,34 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.statList {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: auto;
+}
+
+.label,
+.percentage {
+  font-size: 16px;
+  padding: 12px;
+}
